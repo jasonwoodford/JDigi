@@ -36,4 +36,8 @@ Core modules.
 ## Building JDigi
 This uses the same build structure as *AtomThreads*. Each __ports/XXX/__ folder
 contains it's own Makefile for building *JDigi*. Each Makefile should be
-customized for the architecture being used.
+customized for the architecture and programmer being used.
+
+For example, the currently supported platform for AVR is the ATMega2560 *Arduino
+Mega*, using a parallel port "Pony STK200" programmer. To build the project,
+change to the __ports/avr__ folder and
