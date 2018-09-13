@@ -39,5 +39,16 @@ contains it's own Makefile for building *JDigi*. Each Makefile should be
 customized for the architecture and programmer being used.
 
 For example, the currently supported platform for AVR is the ATMega2560 *Arduino
-Mega*, using a parallel port "Pony STK200" programmer. To build the project,
-change to the __ports/avr__ folder and
+Mega*, using a parallel port *Pony STK200* programmer. To build the project,
+change to the __ports/avr__ folder and:
+
+1. Edit the various header files to suit your particular setup.
+2. Edit the local Makefile for the programming interface and part ID.
+3. Build the code: `make`.
+4. Document the code: `make doxygen`.
+5. Upload the code: `make progdude app=jdigi`.
+6. Verify the upload: `make progdudetest app=jdigi`.
+7. Upload EEPROM code using `make progdudeee app=jdigi`.
+
+
+
