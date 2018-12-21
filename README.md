@@ -1,4 +1,4 @@
-# *JDigi* AX.25/APRS Smart Digipeater v0.99-prerelease
+# *JDigi* AX.25/APRS Smart Digipeater v1.0.0-release
 Copyright 2018 Jason Woodford, VO1JWW.
 Uses the *AtomThreads* scheduler, Copyright 2010 Kelvin Lawson.
 *GNU Time* module is Copyright 2012 Michael Duane Rice.
